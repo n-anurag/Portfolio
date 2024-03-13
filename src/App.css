@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  
+}
+ul{
+  list-style: none;
+  display: flex;
+ 
+  justify-content: space-evenly;
+  float: right;
+  width: 40%;
+  margin: 0px 250px 0% 0;
+  margin-top: 35px;
+font-size: 17px;
+font-weight: bold;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.logo{
+  background-image: url(./images/logo.JPG);
+  height: 50px;
+  width: 100px;
+  background-size: 100% 100%;
+  margin-top: 30px;
+  /* border: 1px solid black; */
+}
+.content{
+   /* border: 1px solid black; */
+   width: 30%;
+   height: 40vh;
+   margin-top: 30vh;
+   margin-left: 25vh;
+  
+}
+
+.content h1{
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 0.8em 1.8em;
+  border: 2px solid #000000;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  transition: .3s;
+  z-index: 1;
+  font-weight: bold;
+  color: black;
+  width: 140px;
+  height: 40px;
+  margin: 4px;
+  border-radius: 8px;
+
+  
+
+ }
+ 
+ button::before {
+  content: '';
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #17C3B2;
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+ }
+ 
+ button:hover::before {
+  width: 105%;
+ }
+ 
+ button:hover {
+  color: #111;
+ }
+ 
