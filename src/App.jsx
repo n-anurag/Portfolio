@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-
 function App() {
   
 
@@ -31,6 +30,9 @@ function App() {
 
           <h2>Hi I am Anurag Neupane. I am </h2>
           <h1>Web Developer</h1>
+          <h1>I love Binu Pandey aka Pandu💝😁</h1>
+        
+          <h1>Do you Love me?</h1>
 
           <button>Contact Me</button>
           <button>Download CV</button>
