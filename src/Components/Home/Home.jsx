@@ -8,8 +8,8 @@ import bgimg from '../images/bgimg.jpg';
 
 const Home = () => {
     return (
-      
-        <div>
+      <>
+        <div className="container_first">
             <div className="header">
                 <div className="logo">
                     <img src={mylogo} alt="Logo" />
@@ -46,8 +46,10 @@ const Home = () => {
                         <img src= {homepic} alt="" />
                     </div>
             </div>
+          
         </div>
        
+        </> 
     );
 };
 
