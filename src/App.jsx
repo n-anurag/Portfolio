@@ -1,4 +1,6 @@
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
+import { CircularProgressbar } from 'react-circular-progressbar'
+import ProgressBar from './Components/Skills/ProgressBar/ProgressBar'
 import './App.css'
 import Home from './Components/Home/Home'
 import About from './Components/About/About'
@@ -11,9 +13,11 @@ function App() {
     <>
     <Home/>
     <About/>
-    {/* <Skills/> */}
+    <Skills/>
     {/* <Contact/> */}
     <Footer/>
+   
+    
     </>
   )
 }

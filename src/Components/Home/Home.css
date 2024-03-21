@@ -16,7 +16,7 @@
     justify-content: space-around;
     /* border: 1px solid black; */
     height: fit-content;
-    width: 90%;
+    width: 82%;
     margin: auto;
     align-items: center;
   
@@ -33,9 +33,11 @@
     align-items: center;
    /* border: 1px solid black; */
     justify-content: space-evenly;
-    float: right;
+    /* float: right; */
     width: 40%;
   font-size: 17px;
+
+ 
   font-weight: bold;
   
   }
