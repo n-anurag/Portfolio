@@ -13,6 +13,7 @@ const Home = () => {
       
       
         <div className="container_first">
+       
             <div className="header">
                 <div className="logo">
                     <img src={mylogo} alt="Logo" />
@@ -52,6 +53,7 @@ const Home = () => {
                     </div>
             </div>
           
+      
         </div>
        
         </> 

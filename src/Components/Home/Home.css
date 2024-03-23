@@ -11,7 +11,8 @@
 
   body{
     height: 10px;
-   background-color: #fff;
+    background-color: #fff;
+
    
   }
 
@@ -26,10 +27,13 @@
   
   
   }
+
+  
   .container_first{
     height: 100vh;
     /* border: 1px solid black; */
-    
+ 
+    background: linear-gradient(52deg, rgba(255,255,255,1) 54%, rgba(193,193,193,1) 55%);
   }
 
   ul{
@@ -169,7 +173,7 @@
     height: 2px;
     left: 50%;
     position: absolute;
-    background: #b3b698;
+    background: #000;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
