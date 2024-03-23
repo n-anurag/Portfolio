@@ -6,9 +6,12 @@ import mylogo from '../images/mylogo.png';
 import homepic from '../images/homepic.png';
 import bgimg from '../images/bgimg.jpg';
 
+
 const Home = () => {
     return (
       <>
+      
+      
         <div className="container_first">
             <div className="header">
                 <div className="logo">
@@ -34,12 +37,14 @@ const Home = () => {
                             autoStart: true,
                             loop: true,
                             typeSpeed: 5,
+                            
                         }}
                     />
                     </div>
+                    <div className="my-button">
                     <button>Contact Me</button>
-                    <button>Download CV</button>
-
+                    <button id='tnd-button'>Download CV</button>
+                    </div>
                    
                 </div>
                 <div className="picture">

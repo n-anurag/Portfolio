@@ -17,7 +17,7 @@ function CircularProgressBar() {
     return (
         <div className="progress-container">
             <div className="progress-box">
-               <h1>JS</h1>
+               <h3>JS</h3>
                 <div className="progressbar-container">
                     <CircularProgressbar
                         value={percentage}
@@ -25,12 +25,13 @@ function CircularProgressBar() {
                         styles={{
                             path: {
                                 // Change the color of the progress bar when it reaches 80%
-                                stroke: percentage < 80 ? "aqua" : "blue",
+                                stroke: percentage < 80 ? "aqua" : "#b0b493",
                             },
                             text: {
-                                // Change the color of the text when the percentage is 80%
-                                fontWeight: "bold",
-                                fill: percentage < 80 ? "#000" : "#000",
+                                fontFamily:"sans-serif",
+                                fontWeight:"bold",
+                                fontSize:"15px",
+                                fill: percentage < 80 ? "#b0b493" : "#000",
                             },
                         }}
                     />

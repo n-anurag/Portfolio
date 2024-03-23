@@ -11,10 +11,11 @@ function App() {
   
   return (
     <>
+    
     <Home/>
     <About/>
     <Skills/>
-    {/* <Contact/> */}
+    <Contact/>
     <Footer/>
    
     

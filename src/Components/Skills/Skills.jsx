@@ -7,10 +7,10 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <>
-      <div className="gap-box"></div>
+    
 
       <div className="skill_about">
-        <h1>My Skills</h1>
+        <section>My Skills</section>
         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
 
         <div className="skill-grid">

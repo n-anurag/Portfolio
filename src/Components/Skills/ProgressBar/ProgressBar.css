@@ -45,9 +45,9 @@
     height: 350px;
     width: 370px;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
     /* border: 1px solid black;    */
 }
 
@@ -60,7 +60,7 @@
 }
 
 .progress-box .progressbar-container .CircularProgressbar {
-    width: 200px;
+    width: 180px;
 }
 
 .skill-grid {
