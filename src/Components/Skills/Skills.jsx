@@ -7,11 +7,9 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <>
-    
-
-      <div className="skill_about">
+      <div id="skillsSection" className="skill_about">
         <section>My Skills</section>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, dicta.</p>
 
         <div className="skill-grid">
           <div className="box">

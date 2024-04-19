@@ -21,22 +21,47 @@
     justify-content: space-around;
     /* border: 1px solid black; */
     height: fit-content;
-    width: 82%;
-    margin: auto;
+    width: 100%;
+    /* margin: auto; */
+   
     align-items: center;
-  
+   
+    
   
   }
 
-  
+
   .container_first{
     height: 100vh;
     /* border: 1px solid black; */
  
     background: linear-gradient(52deg, rgba(255,255,255,1) 54%, rgba(193,193,193,1) 55%);
-  }
+    
 
+    
+  }
+  .header {
+   position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: transform 0.3s ease; /* Add a transition for smooth animation */
+    z-index: 100;
+    /* background-color: #fff; */
+  }
+  
+  .visible {
+    transform: translateY(0); /* Show the header by bringing it back to its original position */
+    /* border: 1px solid black; */
+    /* background-color: #b3b698; */
+  }
+  
+  .hidden {
+    transform: translateY(-100%); /* Hide the header by moving it above the viewport */
+  }
+  
   ul{
+    
     list-style: none;
     display: flex;
     align-items: center;
@@ -50,9 +75,10 @@
   font-weight: bold;
   
   }
-  
+
   .logo img{
     height: 60px;
+    margin-left: 20vh;
     
   }
   /* .logo{
@@ -62,7 +88,7 @@
   .content{
      /* border: 1px solid black; */
      width: 30%;
-     height: 70vh;
+     height: 90vh;
      margin-top: 25vh;
      margin-left: 25vh;
      display: flex; 
@@ -76,11 +102,13 @@
     justify-content: space-between;
     width: 80%;
    margin: auto;
-   
+   position: relative;
+   top:3vh;
   }
 
   .content1{
     width: 60%;
+   
   }
   .content h1{
     margin-bottom: 30px;
@@ -158,7 +186,7 @@
     padding: 15px 0;
   }
   a {
-    color: #000;
+    color: #000000;
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;

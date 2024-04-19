@@ -55,11 +55,11 @@ const Contact = () => {
         <div className="form-details">
             <div className="info">
               <FaMapMarkerAlt size={40} style={{ backgroundColor: '#b3b698', borderRadius: '50%', padding: '5px' }} />
-              <p>123 Main Street, City, Country</p>
+              <p>Bhaktapur</p>
             </div>
             <div className="info">
               <FaPhone size={40} style={{ backgroundColor: '#b3b698', borderRadius: '50%', padding: '5px' }} />
-              <p>(123) 456-7890</p>
+              <p>986448193</p>
             </div>
          <div className="info">
           <FaEnvelope size={40} style={{ backgroundColor: '#b3b698', borderRadius: '50%', padding: '5px' }} />

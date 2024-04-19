@@ -1,12 +1,14 @@
+// About.js
 import React from 'react';
 import './About.css';
 import profilePic from '../images/profile-pic.png';  
 import { FaMusic, FaPlane, FaBasketballBall } from 'react-icons/fa';
 
 const About = () => {
+  
   return (
     <>
-      <div className="gap-box"></div>
+      <div id="aboutSection" className="gap-box"></div>
       <div className="about-container">
         <img src={profilePic} alt="" />
         <div className="about-content">
@@ -29,7 +31,7 @@ const About = () => {
               </div>
               <div className="name1">
               <h3>Phone:</h3>
-              <p>98000000</p>
+              <p>9864481923</p>
               </div>
             </div>
             <div className="name-details">
