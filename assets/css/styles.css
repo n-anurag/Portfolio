@@ -191,6 +191,7 @@ img {
   position: relative;
   row-gap: 5rem;
   padding: 4rem 0 5rem;
+  /* border: 1px solid black; */
 }
 .home__data {
   align-self: center;
@@ -218,10 +219,10 @@ img {
 .home__img {
   position: absolute;
   right: 0;
-  top: 20px;
-  bottom: 0px;
-  width: 290px;
-  height: 660px;
+ 
+  width: max-content;
+  height: 500px;
+
 }
 
 .home__blob {
