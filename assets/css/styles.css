@@ -332,6 +332,9 @@ img {
 .skills__ux {
   width: 55%;
 }
+.skills__react {
+  width: 50%;
+}
 .skills__img {
   border-radius: 0.5rem;
   height: 67vh;
