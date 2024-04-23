@@ -9,18 +9,6 @@ const showMenu = (toggleId, navId) =>{
         })
     }
 }
-// Select the navigation toggle button
-const navToggle = document.getElementById('nav-toggle');
-
-// Select the navigation menu
-const navMenu = document.getElementById('nav-menu');
-
-// Add event listener to the toggle button
-navToggle.addEventListener('click', () => {
-    // Toggle the 'show' class on the navigation menu
-    navMenu.classList.toggle('show');
-});
-
 showMenu('nav-toggle','nav-menu')
 
 /*==================== REMOVE MENU MOBILE ====================*/
