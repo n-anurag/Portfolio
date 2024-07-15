@@ -1,2 +1,2 @@
-Checkout my official website.
+Checkout my official website
 https://www.anuragneupane.com.np/
