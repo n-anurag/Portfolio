@@ -237,9 +237,11 @@ img {
 .home__data a{
   justify-content: space-between;
   height: 64px;
-  width: 150px;
+  width: 180px;
   font-size: 18px;
- 
+ /* border: 2px solid black; */
+ display: flex;
+ align-items: center;
 }
 .home__data i{
     /* border: 2px solid black; */
@@ -330,14 +332,15 @@ img {
   width: 60%;
 }
 .skills__ux {
-  width: 55%;
+  width: 50%;
 }
 .skills__react {
-  width: 50%;
+  width: 70%;
 }
 .skills__img {
   border-radius: 0.5rem;
   height: 67vh;
+  object-fit: cover;
 }
 
 
@@ -349,7 +352,9 @@ img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
+  height: 180px;
 }
+
 .work__img img {
   transition: 1s;
 }
